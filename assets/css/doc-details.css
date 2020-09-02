@@ -1,0 +1,158 @@
+h3{
+    font-size: 25px;
+    color: #B01F50;
+    margin: 20px 0 30px 0
+}
+h1{
+    color: #B01F50
+}
+.rew
+{
+    text-align: center;
+    direction: rtl;
+}
+
+.st-height-b0
+{
+    height: 50px;
+}
+.st-content .doc
+{
+    background-color: #F6F6F8;
+    overflow: hidden;
+    direction: rtl;
+    text-align: right;
+}
+
+.doc-bio li
+{
+    padding-top: 15px;
+    direction: rtl
+}
+.st-content .doc .doc-img
+{
+    width: 33%;
+    float: right;
+    margin: 35px 0
+}
+.st-content .doc .doc-img img
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+.st-content .doc .doc-text
+{
+    width: 60%;
+    float: left;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    text-align: right;
+
+}
+.st-content .doc .doc-text p
+{
+    color: #8A8A8A;
+    margin: 25px 0 25px 0
+}
+.st-content .doc-2
+{
+    overflow: hidden;
+    direction: ltr;
+    text-align: right;
+    margin:2% 0 5% 0
+}
+.st-content .doc-2 .doc-info
+{
+    width: 30%;
+    float: right;
+    margin: 35px 0;
+    font-size: 18px;
+}
+.st-content .doc-2 .doc-info ul
+{
+    list-style: none;
+    overflow: hidden;
+    color: #8A8A8A;
+
+}
+.st-content .doc-2 .doc-info ul li
+{
+    padding: 5px 0;
+}
+.st-content .doc-2 .doc-bio
+{
+    width: 60%;
+    float: left;
+    margin: 35px 0px;
+    text-align: right;
+}
+.st-content .doc-2 .doc-info h3
+{
+    text-align: center;
+    padding-left: 10%;
+}
+.st-content .doc-2 .timetabel
+{
+    direction: rtl;
+    width: 80%;
+    margin:10% 0 0 10%
+}
+.st-content .doc-2 .timetabel .days
+{
+    float: right;
+    width: 50%;
+    margin: 5px 0;
+    text-align: right;
+    color: #d63b70;
+    font-size: 18px
+}
+.st-content .doc-2 .timetabel .time
+{
+    float: left;
+    text-align: left;
+    width: 40%;
+    margin: 5px 0;
+    color: #d63b70;
+    font-size: 17px
+}
+.st-isotop-filter.st-style1
+{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.st-isotop.st-has-gutter
+{
+    margin-bottom: 100px
+}
+.st-isotop-filter.st-style1 ul
+{
+    justify-content: center
+}
+.st-post
+{
+    border: 1px solid  #eaeaea;
+    border-radius: 5px;
+    padding-bottom: 15px ;
+}
+
+.st-post.st-style3 .st-post-title {font-size: 25px; text-align: center}
+.st-post.st-style3 .st-post-thumb {border-radius: 5px}
+.st-post.st-style3 .st-post-thumb img{border-radius: 5px}
+
+.st-imagebox
+{
+    border: 1px solid #eaeaea;
+    border-radius: 0 40px 0 40px;
+    padding: 20px;
+    box-shadow: -10px 10px 20px #eaeaea;
+}
+.st-imagebox-text
+{
+    margin-top: 30px;
+}
+
+.st-social-btn.st-style1
+{
+    margin-right: 2%;
+}

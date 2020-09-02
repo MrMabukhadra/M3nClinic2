@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{FEA8FEB0-1B16-41BA-87FD-F34ACF0C7F41}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>M3nClinic2</RootNamespace>
+    <AssemblyName>M3nClinic2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44304</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>M3nClinic2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>M3nClinic2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\doc-details.css" />
+    <Content Include="assets\css\flaticon.css" />
+    <Content Include="assets\css\Flaticon.html" />
+    <Content Include="assets\css\fontawesome.css" />
+    <Content Include="assets\css\jQueryUi.min.css" />
+    <Content Include="assets\css\lightgallery.min.css" />
+    <Content Include="assets\css\queryLoader.css" />
+    <Content Include="assets\css\rtl.css" />
+    <Content Include="assets\css\select2.min.css" />
+    <Content Include="assets\css\slick.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\textRotate.css" />
+    <Content Include="assets\fonts\fa-brands-400.html" />
+    <Content Include="assets\fonts\fa-brands-400.svg" />
+    <Content Include="assets\fonts\fa-regular-400.html" />
+    <Content Include="assets\fonts\fa-regular-400.svg" />
+    <Content Include="assets\fonts\fa-solid-900.html" />
+    <Content Include="assets\fonts\fa-solid-900.svg" />
+    <Content Include="assets\fonts\Flaticon-2.html" />
+    <Content Include="assets\fonts\Flaticon-3.html" />
+    <Content Include="assets\fonts\Flaticon-4.html" />
+    <Content Include="assets\fonts\Flaticon.html" />
+    <Content Include="assets\fonts\Flaticond41d.html" />
+    <Content Include="assets\fonts\lgd641.svg" />
+    <Content Include="assets\img\after.jpg" />
+    <Content Include="assets\img\appointment.jpg" />
+    <Content Include="assets\img\avatar1.png" />
+    <Content Include="assets\img\avatar2.png" />
+    <Content Include="assets\img\avatar3.png" />
+    <Content Include="assets\img\avatar4.png" />
+    <Content Include="assets\img\banner-doc.jpg" />
+    <Content Include="assets\img\before-after-bg.jpg" />
+    <Content Include="assets\img\before.jpg" />
+    <Content Include="assets\img\blog1.jpg" />
+    <Content Include="assets\img\blog2.jpg" />
+    <Content Include="assets\img\blog3.jpg" />
+    <Content Include="assets\img\blog4.jpg" />
+    <Content Include="assets\img\blog5.jpg" />
+    <Content Include="assets\img\blog6.jpg" />
+    <Content Include="assets\img\client1.png" />
+    <Content Include="assets\img\client2.png" />
+    <Content Include="assets\img\client3.png" />
+    <Content Include="assets\img\client4.png" />
+    <Content Include="assets\img\client5.png" />
+    <Content Include="assets\img\comment1.jpg" />
+    <Content Include="assets\img\comment2.jpg" />
+    <Content Include="assets\img\crutches.png" />
+    <Content Include="assets\img\doctors.jpg" />
+    <Content Include="assets\img\doctors\abd-alla.jpg" />
+    <Content Include="assets\img\doctors\adel.jpg" />
+    <Content Include="assets\img\doctors\ahmed.jpg" />
+    <Content Include="assets\img\doctors\aya.jpg" />
+    <Content Include="assets\img\doctors\mawada.jpg" />
+    <Content Include="assets\img\doctors\raid.jpg" />
+    <Content Include="assets\img\doctors\rasha.jpg" />
+    <Content Include="assets\img\doctors\shaimaa.jpg" />
+    <Content Include="assets\img\doctors\soha.jpg" />
+    <Content Include="assets\img\faq-img.png" />
+    <Content Include="assets\img\favicon-logo.png" />
+    <Content Include="assets\img\favicon.png" />
+    <Content Include="assets\img\footer-bg.png" />
+    <Content Include="assets\img\footer-maan.png" />
+    <Content Include="assets\img\gallary\gal-1-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-1.jpg" />
+    <Content Include="assets\img\gallary\gal-2-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-2.jpg" />
+    <Content Include="assets\img\gallary\gal-3-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-3.jpg" />
+    <Content Include="assets\img\gallary\gal-4-lg.jpeg" />
+    <Content Include="assets\img\gallary\gal-4.jpeg" />
+    <Content Include="assets\img\gallary\gal-5-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-5.jpg" />
+    <Content Include="assets\img\gallary\gal-6-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-6.jpg" />
+    <Content Include="assets\img\gallary\gal-7-lg.jpg" />
+    <Content Include="assets\img\gallary\gal-7.jpg" />
+    <Content Include="assets\img\gallery.jpg" />
+    <Content Include="assets\img\hero-bg.jpg" />
+    <Content Include="assets\img\hero-bg2.jpg" />
+    <Content Include="assets\img\hero-bg4.jpg" />
+    <Content Include="assets\img\hero-bg5.jpg" />
+    <Content Include="assets\img\hero-bg6.jpg" />
+    <Content Include="assets\img\icons\4.png" />
+    <Content Include="assets\img\icons\beauty.png" />
+    <Content Include="assets\img\icons\botox.png" />
+    <Content Include="assets\img\icons\depilation.png" />
+    <Content Include="assets\img\icons\doctor.png" />
+    <Content Include="assets\img\icons\face.png" />
+    <Content Include="assets\img\icons\heart.png" />
+    <Content Include="assets\img\icons\mdma.png" />
+    <Content Include="assets\img\icons\pregnant.svg" />
+    <Content Include="assets\img\icons\tooth.png" />
+    <Content Include="assets\img\loading.gif" />
+    <Content Include="assets\img\maan.png" />
+    <Content Include="assets\img\news-letter-bg.png" />
+    <Content Include="assets\img\project1.jpg" />
+    <Content Include="assets\img\services.jpg" />
+    <Content Include="assets\img\services\anti-age.png" />
+    <Content Include="assets\img\services\body.png" />
+    <Content Include="assets\img\services\botox.png" />
+    <Content Include="assets\img\services\cells.png" />
+    <Content Include="assets\img\services\dental.png" />
+    <Content Include="assets\img\services\dermapen.png" />
+    <Content Include="assets\img\services\hair-remove.png" />
+    <Content Include="assets\img\services\hair.png" />
+    <Content Include="assets\img\services\injection.png" />
+    <Content Include="assets\img\services\kalaf.png" />
+    <Content Include="assets\img\services\obgyn.png" />
+    <Content Include="assets\img\services\ortho.png" />
+    <Content Include="assets\img\services\skin-Care.png" />
+    <Content Include="assets\img\services\smile.png" />
+    <Content Include="assets\img\services\whitining.png" />
+    <Content Include="assets\img\services\youth.png" />
+    <Content Include="assets\img\shape\about-bg-shape.svg" />
+    <Content Include="assets\img\shape\contact-shape1.svg" />
+    <Content Include="assets\img\shape\contact-shape2.svg" />
+    <Content Include="assets\img\shape\contact-shape3.svg" />
+    <Content Include="assets\img\shape\faq-bg.svg" />
+    <Content Include="assets\img\shape\hero-shape.png" />
+    <Content Include="assets\img\shape\member-shape.png" />
+    <Content Include="assets\img\shape\price-shape.png" />
+    <Content Include="assets\img\shape\section_shape.png" />
+    <Content Include="assets\img\slider\011.jpg" />
+    <Content Include="assets\img\slider\022.jpg" />
+    <Content Include="assets\img\slider\033.jpg" />
+    <Content Include="assets\img\video-block-img.jpg" />
+    <Content Include="assets\img\video-play.html" />
+    <Content Include="assets\img\vimeo-play.html" />
+    <Content Include="assets\img\youtube-play.html" />
+    <Content Include="assets\js\counter.min.js" />
+    <Content Include="assets\js\isotope.pkg.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.slick.min.js" />
+    <Content Include="assets\js\jQueryUi.js" />
+    <Content Include="assets\js\lightgallery.min.js" />
+    <Content Include="assets\js\mailchimp.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\queryLoader.js" />
+    <Content Include="assets\js\ripples.min.js" />
+    <Content Include="assets\js\select2.min.js" />
+    <Content Include="assets\js\textRotate.min.js" />
+    <Content Include="assets\js\vendor\jquery-1.12.4.min.js" />
+    <Content Include="assets\js\vendor\modernizr-3.5.0.min.js" />
+    <Content Include="assets\js\wow.min.js" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.vb">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\fa-brands-400.eot" />
+    <Content Include="assets\fonts\fa-brands-400.ttf" />
+    <Content Include="assets\fonts\fa-brands-400.woff" />
+    <Content Include="assets\fonts\fa-brands-400d41d.eot" />
+    <Content Include="assets\fonts\fa-regular-400.eot" />
+    <Content Include="assets\fonts\fa-regular-400.ttf" />
+    <Content Include="assets\fonts\fa-regular-400.woff" />
+    <Content Include="assets\fonts\fa-regular-400d41d.eot" />
+    <Content Include="assets\fonts\fa-solid-900.eot" />
+    <Content Include="assets\fonts\fa-solid-900.ttf" />
+    <Content Include="assets\fonts\fa-solid-900.woff" />
+    <Content Include="assets\fonts\fa-solid-900d41d.eot" />
+    <Content Include="assets\fonts\lgd41d.eot" />
+    <Content Include="assets\fonts\lgd641.eot" />
+    <Content Include="assets\fonts\lgd641.ttf" />
+    <Content Include="assets\fonts\lgd641.woff" />
+    <Content Include="MasterPage.master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>32386</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44304/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

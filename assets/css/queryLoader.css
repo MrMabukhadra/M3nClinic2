@@ -1,0 +1,9 @@
+.QOverlay {
+	background:url('../img/favicon-logo.png')no-repeat fixed center  #FFF ;
+	z-index: 999999;
+}
+
+.QLoader {
+	background-color:#B01F50;
+	height: 1px;
+}
